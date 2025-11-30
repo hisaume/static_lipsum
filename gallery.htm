@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <title>Veritatis Excet</title>
@@ -18,75 +18,75 @@
         <!--Site banner-->
         <picture>
             <source media="(max-width:800px)" srcset="./images/header_small.jpg">
-            <img id="banner-img" src="./images/header.jpg" alt="Banner image" width="100%" height="25%">
+            <img id="banner-img" src="./images/header.jpg" alt="Banner image showing an old town" width="100%" height="25%">
         </picture>
         <div id="title-bar">
-            <img id="banner-icon" src="./images/title-icon.png" alt="Icon" width=auto height="100%">
-            <a id="banner-txt" href="index.htm">Veritatis Excet</a>
+            <img id="banner-icon" src="./images/title-icon.png" alt="Site logo icon" width=auto height="100%">
+            <a id="banner-txt" href="index.htm" tabindex="-1">Veritatis Excet</a>
         </div>
 
         <!--Navigation bar-->
-        <nav>
+        <nav role="navigation">
             <ul>
                 <li class="navbar-li"><a href="index.htm">Home</a></li>
-                <li class="navbar-li"><a class="active" href="gallery.htm">Gallery</a></li>
+                <li class="navbar-li"><a class="active" href="gallery.htm" tabindex="-1">Gallery</a></li>
                 <li class="navbar-li"><a href="contact.htm">Contact</a></li>
                 <li class="navbar-li"><a href="aboutus.htm">About Us</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
+    <main role="main">
         <header><h1>Gallery</h1></header>
 
-        <div id="photo-div">
-            <a href="./images/gal01_1080.jpg" target="_blank">
+        <div id="photo-div" style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
+            <a href="./images/gal01_1080.jpg" target="_blank" aria-label="View larger image of sewers">
                 <picture>
                     <source media="(max-width:500px)" srcset="./images/gal01_360.jpg">
                     <source media="(max-width:800px)" srcset="./images/gal01_720.jpg">
-                    <img src="./images/gal01_360.jpg" alt="Sewers">
+                    <img src="./images/gal01_360.jpg" alt="Image of an old sewers">
                 </picture>
             </a>
-            <a href="./images/gal02_1080.jpg" target="_blank">
+            <a href="./images/gal02_1080.jpg" target="_blank" aria-label="View larger image of night town">
                 <picture>
                     <source media="(max-width:500px)" srcset="./images/gal02_360.jpg">
                     <source media="(max-width:800px)" srcset="./images/gal02_720.jpg">
-                    <img src="./images/gal02_360.jpg" alt="Night town">
+                    <img src="./images/gal02_360.jpg" alt="Image of a night town with lights">
                 </picture>
             </a>
-            <a href="./images/gal03_1080.jpg" target="_blank">
+            <a href="./images/gal03_1080.jpg" target="_blank" aria-label="View larger image of backyard">
                 <picture>
                     <source media="(max-width:500px)" srcset="./images/gal03_360.jpg">
                     <source media="(max-width:800px)" srcset="./images/gal03_720.jpg">
-                    <img src="./images/gal03_360.jpg" alt="Backyard">
+                    <img src="./images/gal03_360.jpg" alt="Image of an old backyard">
                 </picture>
             </a>
-            <a href="./images/gal04_1080.jpg" target="_blank">
+            <a href="./images/gal04_1080.jpg" target="_blank" aria-label="View larger image of old houses">
                 <picture>
                     <source media="(max-width:500px)" srcset="./images/gal04_360.jpg">
                     <source media="(max-width:800px)" srcset="./images/gal04_720.jpg">
-                    <img src="./images/gal04_360.jpg" alt="Residential area">
+                    <img src="./images/gal04_360.jpg" alt="Image of old houses in a residential area">
                 </picture>
             </a>
-            <a href="./images/gal05_1080.jpg" target="_blank">
+            <a href="./images/gal05_1080.jpg" target="_blank" aria-label="View larger image of mound">
                 <picture>
                     <source media="(max-width:500px)" srcset="./images/gal05_360.jpg">
                     <source media="(max-width:800px)" srcset="./images/gal05_720.jpg">
-                    <img src="./images/gal05_360.jpg" alt="Mound">
+                    <img src="./images/gal05_360.jpg" alt="Image of a mound in a field">
                 </picture>
             </a>
-            <a href="./images/gal06_1080.jpg" target="_blank">
+            <a href="./images/gal06_1080.jpg" target="_blank" aria-label="View larger image of church">
                 <picture>
                     <source media="(max-width:500px)" srcset="./images/gal06_360.jpg">
                     <source media="(max-width:800px)" srcset="./images/gal06_720.jpg">
-                    <img src="./images/gal06_360.jpg" alt="Church">
+                    <img src="./images/gal06_360.jpg" alt="Image of inside a church">
                 </picture>
             </a>
-            <a href="./images/gal07_1080.jpg" target="_blank">
+            <a href="./images/gal07_1080.jpg" target="_blank" aria-label="View larger image of birds-eye town">
                 <picture>
                     <source media="(max-width:500px)" srcset="./images/gal07_360.jpg">
                     <source media="(max-width:800px)" srcset="./images/gal07_720.jpg">
-                    <img src="./images/gal07_360.jpg" alt="Birds-eye town">
+                    <img src="./images/gal07_360.jpg" alt="Image of a town viewed from above">
                 </picture>
             </a>
         </div>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <title>Veritatis Excet</title>
@@ -18,25 +18,25 @@
         <!--Site banner-->
         <picture>
             <source media="(max-width:800px)" srcset="./images/header_small.jpg">
-            <img id="banner-img" src="./images/header.jpg" alt="Banner image" width="100%" height="25%">
+            <img id="banner-img" src="./images/header.jpg" alt="Banner image showing an old town" width="100%" height="25%">
         </picture>
         <div id="title-bar">
-            <img id="banner-icon" src="./images/title-icon.png" alt="Icon" width=auto height="100%">
-            <a id="banner-txt" href="index.htm">Veritatis Excet</a>
+            <img id="banner-icon" src="./images/title-icon.png" alt="Site logo icon" width=auto height="100%">
+            <a id="banner-txt" href="index.htm" tabindex="-1">Veritatis Excet</a>
         </div>
 
         <!--Navigation bar-->
-        <nav>
+        <nav role="navigation">
             <ul>
                 <li class="navbar-li"><a href="index.htm">Home</a></li>
                 <li class="navbar-li"><a href="gallery.htm">Gallery</a></li>
                 <li class="navbar-li"><a href="contact.htm">Contact</a></li>
-                <li class="navbar-li"><a class="active" href="aboutus.htm">About Us</a></li>
+                <li class="navbar-li"><a class="active" href="aboutus.htm" tabindex="-1">About Us</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
+    <main role="main">
         <header><h1>About Us</h1></header>
         <div class="txt-box">
             <p class="txt-control">Quisque in felis sed ex dictum euismod sed et metus. Duis eget euismod tortor. Ut pretium turpis felis, sit amet pellentesque turpis viverra bibendum. Donec et quam imperdiet, gravida ante sit amet, consectetur turpis. Aliquam varius finibus leo vestibulum mollis.</p>
@@ -44,8 +44,8 @@
             <p class="txt-control">Donec mollis rhoncus orci eget cursus. Nam ac tellus dolor. Morbi dictum, velit a egestas ornare, sapien nunc dictum dui, varius rutrum elit ipsum a odio. Phasellus nisl ipsum, malesuada a lectus non, sodales feugiat lorem. Aenean tristique libero at nisl consectetur, ac egestas erat commodo.</p>
         </div>
 
-        <section class="review-section">
-            <header><h2>Reviews</h2></header>
+        <section class="review-section" aria-labelledby="reviews-heading">
+            <header><h2 id="reviews-heading">Reviews</h2></header>
             <div class="comment-grid">
                 <div class="comment-box">
                     <p>"Sed quam ipsum, fermentum auctor lacinia at, eleifend vel erat."</p>

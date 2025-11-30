@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <title>Veritatis Excet</title>
@@ -18,40 +18,40 @@
         <!--Site banner-->
         <picture>
             <source media="(max-width:800px)" srcset="./images/header_small.jpg">
-            <img id="banner-img" src="./images/header.jpg" alt="Banner image" width="100%" height="25%">
+            <img id="banner-img" src="./images/header.jpg" alt="Banner image showing an old town" width="100%" height="25%">
         </picture>
         <div id="title-bar">
-            <img id="banner-icon" src="./images/title-icon.png" alt="Icon" width=auto height="100%">
-            <a id="banner-txt" href="index.htm">Veritatis Excet</a>
+            <img id="banner-icon" src="./images/title-icon.png" alt="Site logo icon" width=auto height="100%">
+            <a id="banner-txt" href="index.htm" tabindex="-1">Veritatis Excet</a>
         </div>
 
         <!--Navigation bar-->
-        <nav>
+        <nav role="navigation">
             <ul>
                 <li class="navbar-li"><a href="index.htm">Home</a></li>
                 <li class="navbar-li"><a href="gallery.htm">Gallery</a></li>
-                <li class="navbar-li"><a class="active" href="contact.htm">Contact</a></li>
+                <li class="navbar-li"><a class="active" href="contact.htm" tabindex="-1">Contact</a></li>
                 <li class="navbar-li"><a href="aboutus.htm">About Us</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
+    <main role="main">
         <header><h1>Contact</h1></header>
 
         <div class="img-div">
-            <img src="./images/hall.jpg" alt="Street image">
+            <img src="./images/hall.jpg" alt="Image of an old street with shops">
             <div class="txt-overlay txt-box">
                 <h2>Email</h2>
                 <p class="txt-control-email">Donec posuere pulvinar ultricies. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris blandit, eget bibendum velit justo bibendum nisl.</p>
                 <div class="div-button">
-                    <a id="spec-button" href="mailto:email@someplace.com">Email Us</a>
+                    <a id="spec-button" href="mailto:email@someplace.com" aria-label="Send us an email">Email Us</a>
                 </div>
             </div>
         </div>
 
         <div class="img-div">
-            <img src="./images/address.jpg" alt="Town image">
+            <img src="./images/address.jpg" alt="Birds-eye view image of an old town">
             <div class="txt-overlay2 txt-box">
                 <h2>Address</h2>
                 <p>Viverra House</p>
