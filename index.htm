@@ -26,7 +26,7 @@
         </div>
 
         <!--Navigation bar-->
-        <nav role="navigation">
+        <nav>
             <ul>
                 <li class="navbar-li"><a class="active" href="index.htm" tabindex="-1">Home</a></li>
                 <li class="navbar-li"><a href="gallery.htm">Gallery</a></li>
@@ -36,7 +36,7 @@
         </nav>
     </header>
 
-    <main role="main">
+    <main>
         <header><h1 style="color: #333333;">Veritatis</h1></header>
 
         <img class="image-control" src="./images/alley.jpg" alt="Image of an alley with cobblestones">
@@ -49,12 +49,18 @@
         </div>
     </main>
 
-    <div class="div-button">
-        <a id="spec-button" href="#" aria-label="Return to the top of the page">Return to top</a>
-    </div>
+    <button id="return-button" aria-label="Return to top" onclick="scrollToTop()">
+        Return to top
+    </button>
 
     <footer>
-        <small>Veritatis Excet &copy; 2023</small>
+        <small>Veritatis Excet &copy; 2024</small>
     </footer>
+
+    <script>
+      function scrollToTop() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+    </script>
 </body>
 </html>

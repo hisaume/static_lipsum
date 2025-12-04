@@ -26,7 +26,7 @@
         </div>
 
         <!--Navigation bar-->
-        <nav role="navigation">
+        <nav>
             <ul>
                 <li class="navbar-li"><a href="index.htm">Home</a></li>
                 <li class="navbar-li"><a href="gallery.htm">Gallery</a></li>
@@ -36,7 +36,7 @@
         </nav>
     </header>
 
-    <main role="main">
+    <main>
         <header><h1>About Us</h1></header>
         <div class="txt-box">
             <p class="txt-control">Quisque in felis sed ex dictum euismod sed et metus. Duis eget euismod tortor. Ut pretium turpis felis, sit amet pellentesque turpis viverra bibendum. Donec et quam imperdiet, gravida ante sit amet, consectetur turpis. Aliquam varius finibus leo vestibulum mollis.</p>
@@ -76,12 +76,18 @@
     </main>
 
     <p class="clear-float"/>
-    <div class="div-button">
-        <a id="spec-button" href="#">Return to top</a>
-    </div>
+    <button id="return-button" aria-label="Return to top" onclick="scrollToTop()">
+        Return to top
+    </button>
 
     <footer>
-        <small>Veritatis Excet &copy; 2023</small>
+        <small>Veritatis Excet &copy; 2024</small>
     </footer>
+
+    <script>
+      function scrollToTop() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+    </script>
 </body>
 </html>

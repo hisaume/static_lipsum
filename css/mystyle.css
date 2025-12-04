@@ -295,6 +295,36 @@ nav {
   color: white;
 }
 
+#return-button {
+  display: inline-block;
+  font-family: "EB Garamond", Georgia, serif;
+  font-variant: small-caps;
+  text-align: center;
+  width: 12rem;
+  height: 2rem;
+  line-height: 0rem; /* Vertical offset if needed */
+  border: 1px solid black;
+  border-radius: 4px; /* Rounded corners */
+  margin: 0rem 2rem 2rem 3rem;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  transition: color 300ms, background-color 300ms; /* Smooth transitions */
+  font-size: 1.0rem;
+}
+
+#return-button:hover {
+  color: white; 
+  background-color: #ccbf7a; 
+}
+
+#return-button:focus {
+  outline: 2px solid #FFD700;
+  outline-offset: 2px;
+  background-color: #ccbf7a;
+  color: white;
+}
+
 footer {
   display: flex;
 	flex-direction: row;
